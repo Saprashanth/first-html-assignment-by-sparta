@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .st1{
+            color:purple;
+            width: 300px;
+            height: 150px;
+            background-image: url("https://i.ytimg.com/vi/ThgmWpXkKMI/sddefault.jpg");
+            background-color: brown;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .rsize{
+            margin: auto;
+            width: 300px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="rsize"> 
+        <h1> This My First Page for Login with css </h1>
+        <div class="st1">
+            <p>Welcome To</p>
+            <p>Login</p>
+        </div>
+        <p>Login ID: <input type="text"/></p>
+        <p>Password: <input type="text"/></p>
+        <button>Submit</button>
+    </div>
+</body>
+</html>
